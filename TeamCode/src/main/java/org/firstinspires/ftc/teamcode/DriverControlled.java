@@ -57,7 +57,7 @@ public class DriverControlled extends CommandOpMode {
     DcMotor backRightDrive;
 
     // This declares the IMU needed to get the current direction the robot is facing
-    IMU imu;
+    //IMU imu; remove for testing purposes.
 
     @Override
     public void initialize() {

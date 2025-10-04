@@ -14,11 +14,20 @@ public class DriveSubsystem extends SubsystemBase {
         Motor frontRight = new Motor(hardwareMap, "frontRightDrive");
         Motor backLeft = new Motor(hardwareMap, "backLeftDrive");
 
+        /*
         drive = new MecanumDrive(
                 frontLeft,
                 frontRight,
                 backLeft,
                 backRight
+        );*/
+
+        // for testing
+        drive = new MecanumDrive(
+                backRight,
+                backLeft,
+                frontRight,
+                frontRight
         );
     }
 
